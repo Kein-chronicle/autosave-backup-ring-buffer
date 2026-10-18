@@ -1,0 +1,39 @@
+{
+  "name": "autosave-backup-ring-buffer",
+  "version": "0.1.1",
+  "description": "Plan a bounded ring of recovery snapshots: deterministic slot reuse, explicit dropped keys, and rejection of clocks that went backwards.",
+  "type": "module",
+  "license": "MIT",
+  "exports": {
+    ".": "./scripts/backup.mjs"
+  },
+  "files": [
+    "scripts",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test tests/run.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "keywords": [
+    "backup",
+    "autosave",
+    "retention",
+    "indexeddb",
+    "javascript",
+    "esm",
+    "local-first",
+    "zero-dependencies"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kein-chronicle/autosave-backup-ring-buffer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Kein-chronicle/autosave-backup-ring-buffer/issues"
+  },
+  "homepage": "https://github.com/Kein-chronicle/autosave-backup-ring-buffer#readme"
+}
